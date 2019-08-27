@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="uniblock",
-    version="1.0.2",
+    version="1.0.4",
     author='Ringo',
     description=(
         "uniblock, scoring and filtering corpus"
@@ -29,6 +29,7 @@ setuptools.setup(
     classifiers=[
         "Intended Audience :: Science/Research",
         "Intended Audience :: Developers",
+        "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: MIT License",
         "Topic :: Text Processing",

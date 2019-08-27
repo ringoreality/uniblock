@@ -1,9 +1,8 @@
-
 # uniblock
 
 Tired of scripting rules to remove **special punctuation marks, full-width characters, emojis, mathematical symbols, Latin characters, currency symbols, scientific notations, ...** for your NLP model?
 
-This repository contains code for the paper [uniblock: Scoring and Filtering Corpus with Unicode Block Information](https://dummy-paper-link) in [EMNLP-IJCNLP 2019]([https://www.emnlp-ijcnlp2019.org/](https://www.emnlp-ijcnlp2019.org/)).
+This repository contains code for the paper [uniblock: Scoring and Filtering Corpus with Unicode Block Information](https://arxiv.org/abs/1908.09716) in [EMNLP-IJCNLP 2019](https://www.emnlp-ijcnlp2019.org/).
 
 Using [Unicode](https://home.unicode.org/) [Block](https://en.wikipedia.org/wiki/Unicode_block) information (and more) as features, a [Bayesian Gaussian Mixture Model (BGM model)](https://scikit-learn.org/stable/modules/generated/sklearn.mixture.BayesianGaussianMixture.html) is trained to score and filter corpus. This method provides an alternative to the traditional rule-based approaches for "illegal" character filtering. It is statistical, extendable, simple and effective.
 
@@ -11,7 +10,7 @@ Using [Unicode](https://home.unicode.org/) [Block](https://en.wikipedia.org/wiki
 
 ## installation
 
-To install the package, please use the following command:
+To install the package, please use the following command (uniblock uses [f-strings](https://www.python.org/dev/peps/pep-0498/) and requires python 3.6+):
 ```
 pip install uniblock
 ```
