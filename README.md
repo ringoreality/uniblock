@@ -156,7 +156,7 @@ less uniblock-an-example-run/en/uniblock/train.2M.en.score.filter
 These two files are the cleaned version of the original "uniblock-data/train.2M.zh" "uniblock-data/train.2M.en" files.
 
 ### 7. next steps
-Following the previous steps, you successfully scored and filtered a training corpus for MT. For other tasks that work with monolingual data, it is easy to adapt the steps and obtain "clean" training data. As in the paper, we have experimented with Sentiment Analysis, Language Modeling and Machine Translation to show that uniblocks is robust and works quite well across different tasks and languages. As next steps, you should train your NLP model with the uniblock-cleaned data, and see if there is expected improvement.
+Following the previous steps, you successfully scored and filtered a training corpus for MT. For other tasks that work with monolingual data, it is easy to adapt the steps and obtain "clean" training data. As in the paper, we have experimented with Sentiment Analysis, Language Modeling and Machine Translation to show that uniblock is robust and works quite well across different tasks and languages. As next steps, you should train your NLP model with the uniblock-cleaned data, and see if there is expected improvement.
 
 # Cite This Work
 To cite this work, please use the following .bib:
